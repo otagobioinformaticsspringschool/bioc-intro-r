@@ -101,8 +101,15 @@ Instead of `read.csv()`, we will read in our data using the `read_csv()`
 function (notice the `_` instead of the `.`), from the tidyverse package
 **`readr`**.
 
-```{r, message=FALSE, purl=TRUE}
+```{r, message=FALSE, purl=FALSE, echo=FALSE}
 rna <- read_csv("data/rnaseq.csv")
+
+## view the data
+rna
+```
+
+```{r, message=FALSE, purl=TRUE, eval=FALSE}
+rna <- read_csv("~/obss_2024/intro_r/rnaseq.csv")
 
 ## view the data
 rna
