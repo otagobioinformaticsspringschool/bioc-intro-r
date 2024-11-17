@@ -8,6 +8,13 @@ exercises: 75
 ```{r, include=FALSE}
 ```
 
+::: callout
+
+This episode is skipped for Otago Bioformatics Spring School 2024 Intro to R
+
+:::
+
+
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Describe the purpose of the **`dplyr`** and **`tidyr`** packages.

@@ -27,7 +27,7 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries-incubator/bioc-intro'
+source: 'https://github.com/otagobioinformaticsspringschool/bioc-intro-r'
 
 # Default branch of your lesson
 branch: 'main'
@@ -82,4 +82,4 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://carpentries-incubator.github.io/bioc-intro'
+url: 'https://otagobioinformaticsspringschool.github.io/bioc-intro-r'

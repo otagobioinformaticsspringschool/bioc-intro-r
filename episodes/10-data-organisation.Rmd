@@ -8,6 +8,13 @@ exercises: 30
 ```{r, include=FALSE}
 ```
 
+::: callout
+
+This episode is skipped for Otago Bioformatics Spring School 2024
+
+:::
+
+
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Learn about spreadsheets, their strengths and weaknesses.
