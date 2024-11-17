@@ -277,7 +277,7 @@
     },
     "S4Vectors": {
       "Package": "S4Vectors",
-      "Version": "0.38.2",
+      "Version": "0.42.1",
       "Source": "Bioconductor",
       "Requirements": [
         "BiocGenerics",
@@ -286,8 +286,8 @@
         "stats",
         "stats4",
         "utils"
-      ],
-      "Hash": "338207894998073e7823706f886a1386"
+      ]
+      
     },
     "SummarizedExperiment": {
       "Package": "SummarizedExperiment",
