@@ -10,7 +10,7 @@ exercises: 30
 
 ::: callout
 
-This episode is skipped for Otago Bioformatics Spring School 2024
+This episode is skipped for Otago Bioformatics Spring School 2024 Intro to R
 
 :::
 
