@@ -73,15 +73,30 @@ local machine. You'll need to have a folder on your machine called
 remote file, names it `"rnaseq.csv"` and adds it to a preexisting
 folder named `"data"`.
 
+
+
+::: callout
+
+This was the original code in the lesson for getting the data.
+
 ```{r, eval=TRUE}
 download.file(url = "https://github.com/carpentries-incubator/bioc-intro/raw/main/episodes/data/rnaseq.csv",
               destfile = "data/rnaseq.csv")
 ```
 
+The data for use at Otago Bioinformatics Spring School is found in `~/obss_2024/intro_r/rnaseq.csv`.
+
+:::
+
+
 You are now ready to load the data:
 
-```{r, eval=TRUE, purl=TRUE}
+```{r, eval=TRUE, echo = FALSE , purl = FALSE}
 rna <- read.csv("data/rnaseq.csv")
+```
+
+```{r, eval = FALSE, purl = TRUE}
+rna <- read.csv("~/obss_2024/intro_r/rnaseq.csv")
 ```
 
 This statement doesn't produce any output because, as you might
@@ -119,8 +134,14 @@ the main `read.table()` function with different arguments.  As such,
 the data above could have also been loaded by using `read.table()`
 with the separation argument as `,`. The code is as follows:
 
-```{r, eval=TRUE, purl=TRUE}
+```{r, eval=TRUE, purl=FALSE, echo=FALSE}
 rna <- read.table(file = "data/rnaseq.csv",
+                  sep = ",",
+                  header = TRUE)
+```
+
+```{r, eval=FALSE, purl=FALSE, echo = TRUE}
+rna <- read.table(file = "~/obss_2024/intro_r/rnaseq.csv",
                   sep = ",",
                   header = TRUE)
 ```
